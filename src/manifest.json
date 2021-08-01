@@ -1,0 +1,114 @@
+{
+  "manifest_version": 1,
+  "name": "PURGE",
+  "description": "Webscrapping made easy with #chrome-extention",
+  "version": "0.1",
+  "author": "Pritish Sinha",
+  "default_locale": "en",
+
+
+  "homepage_url": "https://github.com/PuRgE-CoDeE/CE-Webscrapper",
+
+  "incognito": "split",
+
+  "icons": {
+    "32": "core/s_32.png",
+    "128": "core/s_128.png"
+    "128": "core/s_256.png"
+  },
+
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "storage",
+    "tabs",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*",
+    "file://*"
+  ],
+
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "lib/browser-polyfill.js",
+      "core/common.js",
+      "core/optionsAuto.js",
+      "core/extension.js",
+      "core/background.js",
+      "scrapbook/server.js",
+      "capturer/background.js",
+      "editor/background.js",
+      "viewer/background.js"
+    ]
+  },
+
+  "web_accessible_resources": [
+    "resources/*",
+    "viewer/load.html"
+  ],
+
+  "options_ui": {
+    "chrome_style": true,
+    "open_in_tab": true,
+    "page": "core/options.html"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "32": "core/s_32.png",
+      "128": "core/s_128.png"
+      "128": "core/s_256.png"
+    },
+    "default_title": "PURGE",
+    "default_popup": "core/browserAction.html"
+  },
+
+  "commands": {
+    "openScrapBook": {
+      "suggested_key": {
+        "default": "Alt+K"
+      },
+      "description": "OpenScrapBook"
+    },
+    "openOptions": {
+      "description": "OpenOptions"
+    },
+    "openViewer": {
+      "suggested_key": {
+        "default": "Alt+V"
+      },
+      "description": "OpenViewer"
+    },
+    "openSearch": {
+      "description": "OpenSearch"
+    },
+    "searchCaptures": {
+      "description": "SearchCaptures"
+    },
+    "captureTab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "CaptureTab"
+    },
+    "captureTabSource": {
+      "description": "CaptureTabSource"
+    },
+    "captureTabBookmark": {
+      "description": "CaptureTabBookmark"
+    },
+    "captureTabAs": {
+      "description": "CaptureTabAs"
+    },
+    "editTab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E"
+      },
+      "description": "EditTab"
+    }
+  }
+}
