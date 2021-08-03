@@ -1,0 +1,1619 @@
+{
+  "BatchCapture": {
+    "message": "Batch capture all tabs"
+  },
+  "BatchCaptureAbortLabel": {
+    "message": "Abort"
+  },
+  "BatchCaptureCaptureLabel": {
+    "message": "Capture"
+  },
+  "BatchCaptureLinks": {
+    "message": "Batch capture selected links"
+  },
+  "BatchCaptureOptionCustomTitleLabel": {
+    "message": "Overwrite title"
+  },
+  "BatchCaptureOptionUniquifyLabel": {
+    "message": "Ignore duplicated URLs"
+  },
+  "BatchCaptureOptionUseJsonLabel": {
+    "message": "Use JSON format"
+  },
+  "BatchCaptureTitle": {
+    "message": "Capture"
+  },
+  "BatchCaptureUrlsLabel": {
+    "message": "URL list:"
+  },
+  "BatchCaptureUrlsTooltip": {
+    "message": "Input a list of URLs to capture. One URL per line, with optionally a title separated by spaces.\n\nIf “Use JSON format” is checked, the list should be a JSON object with following properties:\n• bookId: The scrapbook ID to save the captured item into, when saving to backend server. Save to the current scrapbook if omitted.\n• parentId: The parent item ID to insert the captured item into, when saving to backend server. Insert into root item if omitted.\n• index: The position to insert the captured item at, when saving to backend server. Append to last if omitted.\n• delay: Delay time before next capture task (ms).\n• autoClose: Overriding option for how to auto-close dialog on capture complete. Available values are: “none”, “nowarn”, “noerror”, “nofailure”, and “always”.\n• mode: The capture mode. “tab” to capture tab (auto-launch a new one for URL capture); “source” to capture source, and “bookmark” to capture as a bookmark. Defaults to “tab” if specified by tabId and to “source” if specified by url.\n• options: Overriding capture options, as a JSON object, with the same format as the exported options (limited to “capture.*”).\n• tasks: An array of capture tasks, with each element being a JSON object with following properties:\n  • tabId: The tab ID to capture. Either tabId or url is required.\n  • frameId: The frame ID of the tab to capture. Capture the main frame if omitted.\n  • fullPage: Capture whole page if truthy; otherwise capture the selected area.\n  • url: The URL to capture.\n  • title: custom item title (if “Overwrite title” is checked).\n  • comment: custom item comment.\n  • favIconUrl: custom item icon.\n  • mode: Task-specific capture mode.\n  • options: Task-specific overriding capture options.\n  • recaptureInfo: Config for recapture, as a JSON object with bookId and itemId attributes.\n  • mergeCaptureInfo: Config for merge capture, as a JSON object with bookId and itemId attributes."
+  },
+  "Cancel": {
+    "message": "Cancel"
+  },
+  "CaptureFrame": {
+    "message": "Capture frame"
+  },
+  "CaptureFrameAs": {
+    "message": "Capture frame as"
+  },
+  "CaptureFrameBookmark": {
+    "message": "Capture frame (bookmark)"
+  },
+  "CaptureFrameSource": {
+    "message": "Capture frame (source)"
+  },
+  "CaptureLink": {
+    "message": "Capture linked page (new tab)"
+  },
+  "CaptureLinkAs": {
+    "message": "Capture linked page as"
+  },
+  "CaptureLinkBookmark": {
+    "message": "Capture linked page (bookmark)"
+  },
+  "CaptureLinkSource": {
+    "message": "Capture linked page (source)"
+  },
+  "CaptureMedia": {
+    "message": "Capture media"
+  },
+  "CaptureMediaAs": {
+    "message": "Capture media as"
+  },
+  "CapturePage": {
+    "message": "Capture page"
+  },
+  "CapturePageAs": {
+    "message": "Capture page as"
+  },
+  "CapturePageBookmark": {
+    "message": "Capture page (bookmark)"
+  },
+  "CapturePageSource": {
+    "message": "Capture page (source)"
+  },
+  "CaptureSelection": {
+    "message": "Capture selected ranges"
+  },
+  "CaptureSelectionAs": {
+    "message": "Capture selected ranges as"
+  },
+  "CaptureTab": {
+    "message": "Capture tabs"
+  },
+  "CaptureTabAs": {
+    "message": "Capture tabs as"
+  },
+  "CaptureTabBookmark": {
+    "message": "Capture tabs (bookmark)"
+  },
+  "CaptureTabBookmarkTooltip": {
+    "message": "Capture each selected tab as a bookmark page or scrapbook item."
+  },
+  "CaptureTabSource": {
+    "message": "Capture tabs (source)"
+  },
+  "CaptureTabSourceTooltip": {
+    "message": "Capture the original content of each selected tab (before processed by the scripts)."
+  },
+  "CaptureTabTooltip": {
+    "message": "Capture the current status of each selected tab. Only the selected range(s) is captured if there's a selection in the tab."
+  },
+  "CapturerTitle": {
+    "message": "Capture page"
+  },
+  "CheckerTitle": {
+    "message": "Check data"
+  },
+  "EditConfirmScriptedDocument": {
+    "message": "This page has scripts, which could conflict with the editor causing permanent data loss. Save anyway?"
+  },
+  "EditExitLabel": {
+    "message": "Exit"
+  },
+  "EditLocateLabel": {
+    "message": "Locate"
+  },
+  "EditPage": {
+    "message": "Edit page"
+  },
+  "EditSaveLabel": {
+    "message": "Save"
+  },
+  "EditTab": {
+    "message": "Edit tab"
+  },
+  "EditTitle": {
+    "message": "Edit $ID$",
+    "placeholders": {
+      "id": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditTitleWithFile": {
+    "message": "Edit $ID$ :: $FILE$",
+    "placeholders": {
+      "id": {
+        "content": "$1"
+      },
+      "file": {
+        "content": "$2"
+      }
+    }
+  },
+  "EditorButtonAnnotation": {
+    "message": "Annotation tool - Click to create a sticky note."
+  },
+  "EditorButtonAnnotationLink": {
+    "message": "Attach hyperlink"
+  },
+  "EditorButtonAnnotationLinkPrompt": {
+    "message": "Input the URL to attach the link:"
+  },
+  "EditorButtonAnnotationNext": {
+    "message": "Find next annotation"
+  },
+  "EditorButtonAnnotationPrev": {
+    "message": "Find previous annotation"
+  },
+  "EditorButtonAnnotationSticky": {
+    "message": "Create sticky note"
+  },
+  "EditorButtonAnnotationStickyRichText": {
+    "message": "Create sticky note (rich text)"
+  },
+  "EditorButtonClose": {
+    "message": "Close toolbar"
+  },
+  "EditorButtonDOMEraser": {
+    "message": "DOM eraser - When activated, click to erase the target element; Ctrl- or middle-click to erase elements except the target. (Erases can be reverted.)"
+  },
+  "EditorButtonDOMEraserErase": {
+    "message": "Erase selection [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonDOMEraserExpand": {
+    "message": "Widen selection [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonDOMEraserIsolate": {
+    "message": "Isolate selection [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonDOMEraserRemoveEdit": {
+    "message": "Remove this scrapbook marking"
+  },
+  "EditorButtonDOMEraserShrink": {
+    "message": "Narrow selection [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonEraser": {
+    "message": "Eraser - Click to erase content in the selected area; Ctrl- or middle-click to remove scrapbook markings in the selected area. (Erases can be reverted.)"
+  },
+  "EditorButtonEraserRevertAll": {
+    "message": "Revert all erases (all frames)"
+  },
+  "EditorButtonEraserRevertSelection": {
+    "message": "Revert erases in selection"
+  },
+  "EditorButtonEraserSelection": {
+    "message": "Revert all erases"
+  },
+  "EditorButtonEraserSelector": {
+    "message": "Erase via CSS selector"
+  },
+  "EditorButtonEraserSelectorAll": {
+    "message": "Erase via CSS selector (all frames)"
+  },
+  "EditorButtonEraserSelectorPrompt": {
+    "message": "Specify the CSS selector to erase elements:"
+  },
+  "EditorButtonHtmlEditor": {
+    "message": "HTML editor - Click to toggle page content editing. (Edits cannot be undone after save.)"
+  },
+  "EditorButtonHtmlEditorBgColor": {
+    "message": "Set background color"
+  },
+  "EditorButtonHtmlEditorBgColorPrompt": {
+    "message": "Input a background color (using CSS color syntax):"
+  },
+  "EditorButtonHtmlEditorCreateLink": {
+    "message": "Create hyperlink"
+  },
+  "EditorButtonHtmlEditorCreateLinkPrompt": {
+    "message": "Input a URL to create the link:"
+  },
+  "EditorButtonHtmlEditorEm": {
+    "message": "Toggle italic"
+  },
+  "EditorButtonHtmlEditorFgColor": {
+    "message": "Set text color"
+  },
+  "EditorButtonHtmlEditorFgColorPrompt": {
+    "message": "Input a text color (using CSS color syntax):"
+  },
+  "EditorButtonHtmlEditorFormatBlockDiv": {
+    "message": "Set to DIV block"
+  },
+  "EditorButtonHtmlEditorFormatBlockH": {
+    "message": "Set to header level $LEVEL$",
+    "placeholders": {
+      "level": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonHtmlEditorFormatBlockP": {
+    "message": "Set to normal paragraph"
+  },
+  "EditorButtonHtmlEditorFormatBlockPre": {
+    "message": "Set to PRE block"
+  },
+  "EditorButtonHtmlEditorHr": {
+    "message": "Insert a horizontal rule"
+  },
+  "EditorButtonHtmlEditorIndent": {
+    "message": "Indent"
+  },
+  "EditorButtonHtmlEditorInsertDate": {
+    "message": "Insert datetime"
+  },
+  "EditorButtonHtmlEditorInsertHtml": {
+    "message": "Insert HTML"
+  },
+  "EditorButtonHtmlEditorInsertHtmlPrompt": {
+    "message": "Input the HTML to insert:"
+  },
+  "EditorButtonHtmlEditorJustifyCenter": {
+    "message": "Align center"
+  },
+  "EditorButtonHtmlEditorJustifyFull": {
+    "message": "Align justify"
+  },
+  "EditorButtonHtmlEditorJustifyLeft": {
+    "message": "Align left"
+  },
+  "EditorButtonHtmlEditorJustifyRight": {
+    "message": "Align right"
+  },
+  "EditorButtonHtmlEditorListOrdered": {
+    "message": "Toggle unordered list"
+  },
+  "EditorButtonHtmlEditorListUnordered": {
+    "message": "Toggle ordered list"
+  },
+  "EditorButtonHtmlEditorOutdent": {
+    "message": "Outdent"
+  },
+  "EditorButtonHtmlEditorRemoveFormat": {
+    "message": "Clear formats"
+  },
+  "EditorButtonHtmlEditorStrike": {
+    "message": "Toggle line-through"
+  },
+  "EditorButtonHtmlEditorStrong": {
+    "message": "Toggle bold"
+  },
+  "EditorButtonHtmlEditorSubscript": {
+    "message": "Toggle subscript"
+  },
+  "EditorButtonHtmlEditorSuperscript": {
+    "message": "Toggle superscript"
+  },
+  "EditorButtonHtmlEditorTodo": {
+    "message": "Insert a checkbox"
+  },
+  "EditorButtonHtmlEditorUnderline": {
+    "message": "Togger underline"
+  },
+  "EditorButtonHtmlEditorUnlink": {
+    "message": "Remove hyperlinks"
+  },
+  "EditorButtonLocate": {
+    "message": "Locater - Locate this item in scrapbook."
+  },
+  "EditorButtonLocateViewDirectory": {
+    "message": "View page directory"
+  },
+  "EditorButtonLocateViewSource": {
+    "message": "View source page"
+  },
+  "EditorButtonMarker": {
+    "message": "Marker - Click to mark the selected text. Click on a mark to create or edit annotation."
+  },
+  "EditorButtonMarkerItem": {
+    "message": "Marker $INDEX$",
+    "placeholders": {
+      "index": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorButtonRemoveEditsAll": {
+    "message": "Remove all scrapbook markings (all frames)"
+  },
+  "EditorButtonRemoveEditsSelection": {
+    "message": "Remove scrapbook markings in selection"
+  },
+  "EditorButtonSave": {
+    "message": "Save page"
+  },
+  "EditorButtonSaveCreateSubPage": {
+    "message": "Create sub page"
+  },
+  "EditorButtonSaveCreateSubPagePrompt": {
+    "message": "Input sub page name (without .html)"
+  },
+  "EditorButtonSaveDeleteErased": {
+    "message": "Permanently delete all erases (all frames)"
+  },
+  "EditorButtonSaveEditTitle": {
+    "message": "Edit page title"
+  },
+  "EditorButtonSaveEditTitlePrompt": {
+    "message": "Input new title"
+  },
+  "EditorButtonSaveInternalize": {
+    "message": "Internalize external resources"
+  },
+  "EditorButtonSaveSetViewport": {
+    "message": "Edit page viewport"
+  },
+  "EditorButtonSaveSetViewportPromptCreate": {
+    "message": "Create page viewport as"
+  },
+  "EditorButtonSaveSetViewportPromptModify": {
+    "message": "Modify page viewport to"
+  },
+  "EditorButtonUndo": {
+    "message": "Undo"
+  },
+  "EditorButtonUndoToggle": {
+    "message": "Enable undo"
+  },
+  "EditorDeleteAnnotationConfirm": {
+    "message": "Delete this annotation?"
+  },
+  "EditorEditAnnotation": {
+    "message": "Edit the annotation text:"
+  },
+  "EditorEditAnnotationPrompt": {
+    "message": "Edit the annotation text (add 2 trailing spaces to insert a new line):\n$TEXT$",
+    "placeholders": {
+      "text": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorLineMarkerCancel": {
+    "message": "Cancel editing [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorLineMarkerSave": {
+    "message": "Save changes [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "EditorStickyDelete": {
+    "message": "Delete this sticky note"
+  },
+  "EditorStickySave": {
+    "message": "Save changes [$KEY$]",
+    "placeholders": {
+      "key": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorContentScriptExecute": {
+    "message": "Unable to execute content script ($SOURCE$): $REASON$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      },
+      "reason": {
+        "content": "$2"
+      }
+    }
+  },
+  "ErrorEditorButtonEraserSelectorInvalid": {
+    "message": "'$selector$' is not a valid selector.",
+    "placeholders": {
+      "selector": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorFileDownloadError": {
+    "message": "Error downloading file ($URL$): $REASON$",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      },
+      "reason": {
+        "content": "$2"
+      }
+    }
+  },
+  "ErrorFileSaveError": {
+    "message": "Error saving file ($FILENAME$ <= $URL$): $REASON$",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      },
+      "filename": {
+        "content": "$2"
+      },
+      "reason": {
+        "content": "$3"
+      }
+    }
+  },
+  "ErrorImportOptions": {
+    "message": "Error on importing options: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorLocateNotFound": {
+    "message": "Unable to find a matching scrapbook item of this page."
+  },
+  "ErrorLocateSidebarNotOpened": {
+    "message": "Unable to locate as no scrapbook is opened."
+  },
+  "ErrorSaveBookNoTree": {
+    "message": "The scrapbook disabled tree feature."
+  },
+  "ErrorSaveLockedItem": {
+    "message": "Unable to save a locked item."
+  },
+  "ErrorSaveNonHtml": {
+    "message": "Unable to save a non-HTML file ($URL$).",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorSaveNonUTF8": {
+    "message": "Unable to save a file with non-UTF-8 encoding ($URL$).",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorSaveNotUnderDataDir": {
+    "message": "Unable to save a file beyond data directory ($URL$).",
+    "placeholders": {
+      "url": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorSaveUnknownItem": {
+    "message": "Unable to find item of this page."
+  },
+  "ErrorSaveUploadFailure": {
+    "message": "Unable to upload to backend server ($SOURCE$): $REASON$",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      },
+      "reason": {
+        "content": "$2"
+      }
+    }
+  },
+  "ErrorSearch": {
+    "message": "Error: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorSearchInvalidDate": {
+    "message": "Invalid date format: $DATE$",
+    "placeholders": {
+      "date": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorSearchInvalidRegExp": {
+    "message": "Invalid RegExp synatx: $REGEX$",
+    "placeholders": {
+      "regex": {
+        "content": "$1"
+      }
+    }
+  },
+  "ErrorTabDiscarded": {
+    "message": "Tab discarded. Reload it and try again."
+  },
+  "ExtensionDescription": {
+    "description": "Description of the extension as it's visible to the outside world",
+    "message": "Capture web pages to local device or backend server for future retrieval, organization, annotation, and editing."
+  },
+  "ExtensionName": {
+    "description": "Name of the extension as it's visible to the outside world",
+    "message": "WebScrapBook"
+  },
+  "IndexerHeader": {
+    "message": "Pick directories or ZIP archive files of scrapbook folders, via dropping them into this page, or using the buttons below:"
+  },
+  "IndexerLoadServer": {
+    "message": "Index for server"
+  },
+  "IndexerPickDir": {
+    "message": "Pick a folder"
+  },
+  "IndexerPickDirTooltip": {
+    "message": "When selecting a folder in this way, the root directory cannot be correctly identified if the root directory contains only a single folder. Select a folder via dropping, or add a file or a folder containing files to the root directory, to avoid this issue."
+  },
+  "IndexerPickFiles": {
+    "message": "Pick ZIP files"
+  },
+  "IndexerTitle": {
+    "message": "Generate site index"
+  },
+  "OK": {
+    "message": "OK"
+  },
+  "OpenChecker": {
+    "message": "Run checker"
+  },
+  "OpenIndexer": {
+    "message": "Run indexer"
+  },
+  "OpenOptions": {
+    "message": "Options"
+  },
+  "OpenScrapBook": {
+    "message": "Open ScrapBook"
+  },
+  "OpenScrapBookTooltip": {
+    "message": "Run a backend server and configure the options properly to get it work."
+  },
+  "OpenSearch": {
+    "message": "Search scrapbook"
+  },
+  "OpenViewer": {
+    "message": "View archived page"
+  },
+  "OptionAutocaptureLabel": {
+    "message": "Enable auto-capture:"
+  },
+  "OptionAutocaptureTooltip": {
+    "message": "Auto-capture is defined using JSON syntax with the following format:\n\n  [\n   {\n    \"name\": \"Example#1\",\n    \"description\": \"Auto-capture example.com\",\n    \"pattern\": \"/^https?://example\\\\.com//i\",\n    \"delay\": 5000,\n    ...\n   },\n   ...\n  ]\n\n• name: a string to name this config and can be used for debugging identification, optional.\n• description: a string to annotate this config, optional.\n• disabled: disables this config when the value is truthy, optional.\n• tabId: a tab ID to restrict this config to work for. Works for any tab when omitted.\n• pattern: a regular expression string (“/expression/flags”) to restrict the URLs this config works for. Works for any URL when omitted.\n• delay: delay time before the auto-capture starts after the page completes loading (ms). No delay if it's omitted or not greater than 0.\n• repeat: repeat interval for the repeated captures after the first auto-capture starts (ms). No repeated capture if omitted or not greater than 0.\n• allowDuplicate: allow identical page be auto-captured repeatedly if the value is truthy, optional.\n• taskInfo: overriding capture settings, with the same format as the main JSON object of “Capture as...”, optional.\n• eachTaskInfo: overriding capture settings for each task, with the same format as each object in the tasks array of “Capture as...”, optional."
+  },
+  "OptionCaptureAppletLabel": {
+    "message": "APPLETs:"
+  },
+  "OptionCaptureAppletTooltip": {
+    "message": "This determines how APPLET elements, which are used to embed JAVA applets and are no more supported by most modern browsers, are handled. NOTE: JAVA applets may not work without original server environment, and could cause a security hazard.\n\n• Save: Save the referenced resources to local.\n• Link: Link the APPLET element to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the APPLET element.\n• Remove: Remove the APPLET element. Note that this could alter the web page layout."
+  },
+  "OptionCaptureAudioLabel": {
+    "message": "Audios:"
+  },
+  "OptionCaptureAudioTooltip": {
+    "message": "This determines how audio elements are handled.\n\n• Save: Save the referenced audio resources to local.\n• Save current: Save the playing audio resource to local and ignore alternatives for other browsers. This considerably reduces size but the audio may be unplayable on another platform. If the captured page is not displayed in the browser (such as capture source), all audio resources are saved.\n• Link: Link the audio to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the audio.\n• Remove: Remove the audio element. Note that this could alter the web page layout."
+  },
+  "OptionCaptureCanvasBlankLabel": {
+    "message": "Save initial status"
+  },
+  "OptionCaptureCanvasLabel": {
+    "message": "Canvases:"
+  },
+  "OptionCaptureCanvasSaveLabel": {
+    "message": "Save current status"
+  },
+  "OptionCaptureCanvasTooltip": {
+    "message": "This determines how canvas elements are handled. Canvases are blank initially and drawn by web page scripts.\n\n• Save current status: Generate an initialization script that records the current canvas status to redraw it when the saved web page is loaded. NOTE: The current status of a canvas drawn using certain techniques cannot be recorded faithfully.\n• Save initial status: Save a blank canvas.\n• Remove: Remove the canvas element."
+  },
+  "OptionCaptureCommonBlankLabel": {
+    "message": "Blank"
+  },
+  "OptionCaptureCommonLinkLabel": {
+    "message": "Link"
+  },
+  "OptionCaptureCommonRemoveLabel": {
+    "message": "Remove"
+  },
+  "OptionCaptureCommonSaveCurrentLabel": {
+    "message": "Save current"
+  },
+  "OptionCaptureCommonSaveLabel": {
+    "message": "Save"
+  },
+  "OptionCaptureCommonSaveUsedLabel": {
+    "message": "Save used"
+  },
+  "OptionCaptureDeleteErasedOnCaptureLabel": {
+    "message": "Automatically delete all erased content on capturing"
+  },
+  "OptionCaptureDeleteErasedOnCaptureTooltip": {
+    "message": "NOTE: those related with the erased content, such as a external resource or an interactive factor, may not be reverted after captured."
+  },
+  "OptionCaptureDeleteErasedOnSaveLabel": {
+    "message": "Automatically delete all erased content on saving"
+  },
+  "OptionCaptureDownLinkDocDelayLabel": {
+    "message": "Delay for capturing linked pages (ms):"
+  },
+  "OptionCaptureDownLinkDocDepthLabel": {
+    "message": "Depth to capture linked pages:"
+  },
+  "OptionCaptureDownLinkDocDepthTooltip": {
+    "message": "Capture linked pages whose depth is not greater than the specified value, and build cross links and record used resources. The main page is depth 0, pages linked by a page with depth 0 is depth 1, pages linked by a page with depth 1 is depth 2, ... and so on.\n\n• Set depth to 0 to record used resources without capturing linked pages. Set depth to blank to not record used resources.\n• NOTE: A deep capture may download a lot of data. It's recommended to set “save captured data as” to “Folder” to prevent a potential performance issue or error. Saving as single HTML is not supported."
+  },
+  "OptionCaptureDownLinkDocUrlFilterLabel": {
+    "message": "Include these URLs:"
+  },
+  "OptionCaptureDownLinkDocUrlFilterTooltip": {
+    "message": "This determines what links are for capturing according to URL.\n\n• Each following line is a full URL (with chars following a “#” stripped) or a regular expression (e.g. “/^http://example\\.com//”). \n• A link whose full URL (with chars following a “#” stripped) matches a rule at any line is included for downloading. For example, the link “http://example.com/subpage#h2” matches the full URL rule “http://example.com/subpage” or the regular expression rule “/^http://example\\.com/SubPage\\d*/i”. Any URL is included if no rule exists in any line.\n• A line starting with “#” is regarded as a comment and will be ignored during execution.\n• Text following a space is regarded as a comment and will be ignored during execution. For example, “http://example.com/ comment” is treated as “http://example.com/”; “/^https:/ comment” is treated as“/^https:/”."
+  },
+  "OptionCaptureDownLinkFileExtFilterLabel": {
+    "message": "Include these file extensions:"
+  },
+  "OptionCaptureDownLinkFileExtFilterTooltip": {
+    "message": "This determines what links are to be downloaded according to file extension.\n\n• Each following line is a comma-separated list of extensions (case-insensitive and may include spaces, e.g. “jpg, jpeg”) or a regular expression (e.g. “/jpe?g|gif|png/i”).\n• A link whose full extension matches a rule at any line is included for download. For example, the link “http://example.com/file.doc?token=foo” is taken “doc” for matching and does not match the extensions rule “docx, do”.\n• A line starting with “#” is regarded as a comment and will be ignored during execution."
+  },
+  "OptionCaptureDownLinkFileModeHeaderLabel": {
+    "message": "Match HTTP header and file extension"
+  },
+  "OptionCaptureDownLinkFileModeLabel": {
+    "message": "Download linked files:"
+  },
+  "OptionCaptureDownLinkFileModeNoneLabel": {
+    "message": "Disable download linked files"
+  },
+  "OptionCaptureDownLinkFileModeTooltip": {
+    "message": "This determines whether and how to download the targeted resource of a link (an A or AREA element).\n\n• Disable download linked files: Do not download the linked resource.\n• Match URL file extension: Match the file extension of the URL. This performs better but cannot differenciate dynamically generated resource. For example, a URL whose extension is .php can output a resource of html, doc, pdf, or other type, but the filter always gets “php” in this mode.\n• Match HTTP header and file extension: Traverse every link to get the HTTP header and the precise extension of the output resource for matching. NOTE: Certain sites make interactive commands as plain hyperlink, which could be unexpectedly triggered during traversal (such as logging out the site). The URL filter can be configured to avoid such trigering."
+  },
+  "OptionCaptureDownLinkFileModeUrlLabel": {
+    "message": "Match URL file extension"
+  },
+  "OptionCaptureDownLinkUrlFilterLabel": {
+    "message": "URL filter:"
+  },
+  "OptionCaptureDownLinkUrlFilterTooltip": {
+    "message": "This determines what are forbidden for downloading or capturing according to URL.\n\n• Each following line is a full URL (with chars following a “#” stripped) or a regular expression (e.g. “/[/=]logout\\b/i”). \n• A link whose full URL (with chars following a “#” stripped) matches a rule at any line is forbidden for downloading. For example, the links “http://example.com/logout” and “http://example.com/?a=LOGOUT” both match the regular expression rule “/[/=]logout\\b/i”.\n• A line starting with “#” is regarded as a comment and will be ignored during execution.\n• Text following a space is regarded as a comment and will be ignored during execution. For example, “http://example.com/ comment” is treated as “http://example.com/”; “/^https:/ comment” is treated as“/^https:/”."
+  },
+  "OptionCaptureEmbedLabel": {
+    "message": "EMBEDs:"
+  },
+  "OptionCaptureEmbedTooltip": {
+    "message": "This determines how EMBED elements, which are typically used to include plugins, and sometimes images, media, or frames, are handled. NOTE: Plugins may not work without original server environment, and could cause a security hazard.\n\n• Save: Save the referenced resources to local.\n• Link: Link the EMBED element to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the EMBED element.\n• Remove: Remove the EMBED element. Note that this could alter the web page layout."
+  },
+  "OptionCaptureFaviconLabel": {
+    "message": "Favicon:"
+  },
+  "OptionCaptureFaviconTooltip": {
+    "message": "This determines how favicons, which are shown in the tab, bookmarks or my favorites, are handled.\n\n• Save: Save the referenced favicon resources to local.\n• Link: Link the favicon to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the favicon.\n• Remove: Remove the favicon element."
+  },
+  "OptionCaptureFontLabel": {
+    "message": "Fonts:"
+  },
+  "OptionCaptureFontTooltip": {
+    "message": "This determines how fonts are handled.\n\n• Save: Save all fonts to local.\n• Save used: Save only the fonts used by elements in the captured web page area. If the captured page is not displayed (such as capture source), all fonts are still saved.\n• Link: Link the font to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Clear fonts from the stylesheets."
+  },
+  "OptionCaptureFormStatusHtmlAllLabel": {
+    "message": "Keep all HTML"
+  },
+  "OptionCaptureFormStatusHtmlLabel": {
+    "message": "Keep HTML"
+  },
+  "OptionCaptureFormStatusKeepAllLabel": {
+    "message": "Keep all"
+  },
+  "OptionCaptureFormStatusKeepLabel": {
+    "message": "Keep"
+  },
+  "OptionCaptureFormStatusLabel": {
+    "message": "Form status:"
+  },
+  "OptionCaptureFormStatusResetLabel": {
+    "message": "Reset"
+  },
+  "OptionCaptureFormStatusSaveAllLabel": {
+    "message": "Save all"
+  },
+  "OptionCaptureFormStatusSaveLabel": {
+    "message": "Save"
+  },
+  "OptionCaptureFormStatusTooltip": {
+    "message": "This determines how current form status are handled.\n\n• Save all: Record all current status using a special attribute and an initialization script, to avoid breaking features like reset.\n• Save: Record current status (excluding sensitive information like passwords) using a special attribute and an initialization script, to avoid breaking features like reset.\n• Keep all: Rewrite current status with corresponding HTML attribute. Non-HTML representable status are handled via a special attribute and an initialization script.\n• Keep: Rewrite current status (excluding sensitive information like passwords) with corresponding HTML attribute. Non-HTML representable status are handled via a special attribute and an initialization script.\n• Keep all HTML: Rewrite current status with corresponding HTML attribute. Ignore non-HTML representable status.\n• Keep HTML: Rewrite current status (excluding sensitive information like passwords) with corresponding HTML attribute. Ignore non-HTML representable status.\n• Reset: Ignore current status."
+  },
+  "OptionCaptureFrameLabel": {
+    "message": "Frames:"
+  },
+  "OptionCaptureFrameTooltip": {
+    "message": "This determines how frames (FRAME and IFRAME elements) are handled.\n\n• Save: Save the frame pages to local.\n• Link: Link the frame to its source URL. Note that a network flow will be triggered when browsing the captured document in the future. NOTE: Due to the restriction of SOP, ths font cannot be loaded by the captured page unless CORS has been properly configured by its source server.\n• Blank: Disable the frame elements.\n• Remove: Remove the frame. Note that this could alter the web page layout."
+  },
+  "OptionCaptureHelpersLabel": {
+    "message": "Enable capture helpers"
+  },
+  "OptionCaptureHelpersTooltip": {
+    "message": "Capture helpers preprocess the captured content to improve the capture quality. It's defined using JSON syntax with the following format:\n\n  [\n    {\n      \"name\": \"AdsRemover\",\n      \"description\": \"Remove unwanted content\",\n      \"pattern\": \"/https?://example\\\\.com//i\",\n      \"commands\": [\n        [\"remove\", \"#ad-by-xxx\"],\n        [\"unwrap\", \"#i-want-to-strip-this\"],\n        ...\n      ]\n    },\n    {\n      \"name\": \"DeferredImageFixer\",\n      \"description\": \"Save deferred images defined by data-*\",\n      \"commands\": [\n        [\"attr\", {\"css\": \"img[data-src]\"}, \"src\", [\"get_attr\", null, \"data-src\"]],\n        [\"attr\", {\"css\": \"img[data-srcset]\"}, \"srcset\", [\"get_attr\", null, \"data-srcset\"]],\n        ...\n      ]\n    },\n    ...\n  ]\n\n• name: a string to name this helper and can be used in debugging identification, optional.\n• description: a string to annotate this helper, optional.\n• disabled: disables this helper when the value is truthy, optional.\n• debug: enable debug mode for this helper when the value is truthy, optional.\n• pattern: a regular expression string (“/expression/flags”; same for followings) to restrict URLs this helper works for. Works for all pages when omitted.\n• commands: Commands to run in order.\n  • Available commands are:\n    • [\"options\", name, value]: overwrite capture option name (string) with value, with the same format as the exported options (limited to “Capture - content”).\n    • [\"options\", {name: value, ...}]: overwrite multiple capture options.\n    • [\"remove\", selector]: remove each element matched by selector.\n    • [\"unwrap\", selector]: unwrap (remove but keep descendants) each element matched by selector.\n    • [\"html\", selector, htmlText]: for each element matched by selector, set HTML content to htmlText (string).\n    • [\"text\", selector, text]: for each element matched by selector, set text content to text (string).\n    • [\"attr\", selector, name, value]: for each element matched by selector, set attribute name (string) to value (string, or null to delete attribute).\n    • [\"attr\", selector, {name: value, ...}]: for each element matched by selector, set multiple attributes.\n    • [\"css\", selector, name, value, priority]: for each element matched by selector, set CSS property name (string) to value (string, or null to delete property) with priority (\"important\" or \"\" or omitted).\n    • [\"css\", selector, {name: value, ...}]: for each element matched by selector, set multiple CSS properties.\n    • [\"insert\", selector, name, attrs, text, mode, index]: for each element matched by selector, insert an element with it as reference, with name (string) as element name, attrs as attributes ({name: value, ...}), text (string) as text content, mode (string) as insertion method (“before”: before the referenced element; “after”: after the referenced element; “insert”: insert as the index-th child element of the referenced element; “append”: insert as the last child element of the referenced element).\n    • [\"for\", selector, command1, command2, ...]: for each element matched by selector, run command# in order.\n  • A parameter of a command can also be a command, and below commands can be used to get a value:\n    • [\"has_elem\", selector]: whether selector matches at least one element.\n    • [\"has_attr\", selector, name]: whether the first element matched by selector has the attribute name.\n    • [\"match\", text, pattern]: whether text matches the regular expression string pattern. If index is specified, return corresponding subgroup of matched string.\n    • [\"get_html\", selector]: HTML content of the first element matched by selector.\n    • [\"get_text\", selector]: text content of the first element matched by selector.\n    • [\"get_attr\", selector, name]: value of attribute name of the first element matched by selector.\n    • [\"get_css\", selector, name, getPriority]: value of style name of the first element matched by selector. Get style priority instead if getPriority is truthy.\n    • [\"replace\", text, pattern, replacement]: replace string text with regular expression pattern to replacement.\n    • [\"if\", cond, thenValue, elseValue]: return thenValue if cond is truthy, or elseValue otherwise.\n    • [\"and\", value1, value2, ...]: the first falsy value of value#, or the last value.\n    • [\"or\", value1, value2, ...]: the first truthy value of value#, or the last value.\n  • Selector can be specified in many commands to select elements according to the current reference element. The reference element of each command of commands is initially the root node of the captured page (which is usually the HTML element). Each element matched by selector of a command X will become the reference element of every command Y following the selector parameter of command X. The value of a selector can be either:\n    • \"self\" or null: to select the current reference element.\n    • \"parent\": to select the parent of the reference element.\n    • \"root\": to select the root node.\n    • \"<CSS selector value>\": to match elements using a CSS selector.\n    • {\"css\": \"<CSS selector value>\"}: to match elements using a CSS selector.\n    • {\"xpath\": \"<XPath value>\"}: to match elements using an XPath.\n  • When debug mode is enabled, commands with name prefixed with “*” will be logged in the console. For example: [\"*get_attr\", null, \"data-src\"]\n\nWhen an error occurs or debug mode is enabled, details are available in the console of the captured page (or the capture dialog whening capturing source)."
+  },
+  "OptionCaptureImageBackgroundLabel": {
+    "message": "Style images:"
+  },
+  "OptionCaptureImageBackgroundTooltip": {
+    "message": "This determines how style images (images of background, cursor, list-item, etc., used by the stylesheet, and the background attribute of an element in old HTML standard) are handled.\n\n• Save: Save all style images to local.\n• Save used: Save only the style images used by elements in the captured web page area. If the captured page is not displayed (such as capture source), all style images are still saved.\n• Link: Link the style image to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Clear style images from the stylesheets."
+  },
+  "OptionCaptureImageLabel": {
+    "message": "Images:"
+  },
+  "OptionCaptureImageTooltip": {
+    "message": "This determines how images (IMG, PICTURE, and some INPUT elements) are handled.\n\n• Save: Save the referenced image resources to local.\n• Save current: Save the displayed image resource to local and ignore alternatives for another screen viewport or resolution. This considerably reduces size but may affect the display effect on another device. If the captured page is not displayed in the browser (such as capture source), all images are saved.\n• Link: Link the image to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the image.\n• Remove: Remove the image element. Note that this could alter the web page layout."
+  },
+  "OptionCaptureInsertInfoBarLabel": {
+    "message": "Add infobar when a page is captured or saved"
+  },
+  "OptionCaptureInsertInfoBarTooltip": {
+    "message": "If checked, a script will be inserted in a captured or saved page to show an infobar at page top (requires JavaScript).\n\n• NOTE: Archive page viewer cannot show the infobar as it does not support JavaScript. Use a viewing technique that supports JavaScript to work with an archive page, such as opening the index page after unzipping."
+  },
+  "OptionCaptureLinkUnsavedUriLabel": {
+    "message": "Link uncaptured resource to source"
+  },
+  "OptionCaptureLinkUnsavedUriTooltip": {
+    "message": "If checked, an uncaptured resource is linked to the source URL (a network flow will be triggered when browsing the captured document); otherwise it's recorded as “urn:scrapbook:*”."
+  },
+  "OptionCaptureMergeCssResourcesLabel": {
+    "message": "Merge duplicated CSS media"
+  },
+  "OptionCaptureMergeCssResourcesTooltip": {
+    "message": "Replace duplicated CSS media with variables. This can significantly reduce file size, but is only supported by modern browsers, such as Chromium ≥ 49, Firefox ≥ 31, Edge ≥ 15, Safari > 9.1, and Opera ≥ 36; other browsers won't be able to show related media."
+  },
+  "OptionCaptureObjectLabel": {
+    "message": "OBJECTs:"
+  },
+  "OptionCaptureObjectTooltip": {
+    "message": "This determines how OBJECT elements, which are typically used to include plugins, and sometimes images, media, or frames, are handled. NOTE: Plugins may not work without original server environment, and could cause a security hazard.\n\n• Save: Save the referenced resources to local.\n• Link: Link the OBJECT element to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the OBJECT element.\n• Remove: Remove the OBJECT element. Note that this could alter the web page layout."
+  },
+  "OptionCaptureRecordRewritesLabel": {
+    "message": "Record rewrites"
+  },
+  "OptionCaptureRecordRewritesTooltip": {
+    "message": "Create a corresponding data-* attribute, or HTML or CSS comment to record the original value for every rewriting during the capture process."
+  },
+  "OptionCaptureRemoteTabDelayLabel": {
+    "message": "Delay before capturing an auto new tab (ms):"
+  },
+  "OptionCaptureRemoveHiddenLabel": {
+    "message": "Remove hidden elements:"
+  },
+  "OptionCaptureRemoveHiddenNoneLabel": {
+    "message": "Disable"
+  },
+  "OptionCaptureRemoveHiddenTooltip": {
+    "message": "Determines how hidden elements are handled.\n\n• Disable: Disable this feature.\n• Remove undisplayed elements: Remove elements whose “display” CSS property is computed to “none”. An ad-blocker tool may inject hidden CSS to hide ad elements, and this helps truly remove them. Note that this could alter the web page layout, such as altering the targets of “+”, “~”, and “:nth-child” CSS selectors."
+  },
+  "OptionCaptureRemoveHiddenUndisplayedLabel": {
+    "message": "Remove undisplayed elements"
+  },
+  "OptionCaptureResourceSizeLimitLabel": {
+    "message": "Size limit for each resource file (MiB):"
+  },
+  "OptionCaptureResourceSizeLimitTooltip": {
+    "message": "A resource file exceeding the limit will not be saved. Empty for no limit."
+  },
+  "OptionCaptureRewriteCssLabel": {
+    "message": "Rewrite styles:"
+  },
+  "OptionCaptureRewriteCssMatchLabel": {
+    "message": "Advanced tidy"
+  },
+  "OptionCaptureRewriteCssNoneLabel": {
+    "message": "No rewrite"
+  },
+  "OptionCaptureRewriteCssTidyLabel": {
+    "message": "Tidy"
+  },
+  "OptionCaptureRewriteCssTooltip": {
+    "message": "This determines how stylesheets are rewritten.\n\n• No rewrite: Save stylesheets as-is.\n• Rewrite URL: Rewrite URLs in the stylesheets to get them link to downloaded resources correctly.\n• Tidy: Rewrite URLs and tidy stylesheets, by removing comments, spaces, and style declarations not recognized by the browser. This helps reduce size, but may cause the page not shown correctly on another browser.\n• Advanced tidy: Rewrite URLs, tidy stylesheets, and remove style declarations that is not used by the captured page. This helps further reduce size, but may cause the page not shown correctly on another browser, and could conflict with the saved scripts."
+  },
+  "OptionCaptureRewriteCssUrlLabel": {
+    "message": "Rewrite URL"
+  },
+  "OptionCaptureSaveAsFolderLabel": {
+    "message": "Folder"
+  },
+  "OptionCaptureSaveAsLabel": {
+    "message": "Save captured data as:"
+  },
+  "OptionCaptureSaveAsMaffLabel": {
+    "message": "MAFF package"
+  },
+  "OptionCaptureSaveAsSingleHtmlLabel": {
+    "message": "Single HTML"
+  },
+  "OptionCaptureSaveAsTooltip": {
+    "message": "This determines how the web page and referenced files are saved.\n\n• Folder: Generates a folder and save the web page and resource files into it. NOTE for Google Chrome (and some Chromium-based browsers): When saving captured data to scrapbook folder, it's recommended that “Ask where to save each file before downloading” browser option (Advanced > Downloads) be unchecked to avoid massive prompts for each capture. Certain files (e.g. *.js, *.py) may be blocked by the browser, and selecting “Keep” for each one is required to download them.\n• HTZ or MAFF package: Packs web page and referenced resources in to a single file using ZIP algorithm. Such files can be viewed using the “View archive page” feature, through the backend server, or by unzipping them.\n• Single HTML: Stores the referenced resource as data URL, which is supported by most browsers, such as Chromium > 0, Firefox > 0, Edge > 0, Safari > 0, Opera ≥ 7.2, and IE ≥ 8 (very limited in IE). NOTE: Data URLs are less performant and cannot effectively deduplicate resources, which can cause the file size to increase significantly. Additionally, this format may be incapable of preserving certain complicated data structure."
+  },
+  "OptionCaptureSaveAsZipLabel": {
+    "message": "HTZ package"
+  },
+  "OptionCaptureSaveAsciiFilenameLabel": {
+    "message": "Save ASCII filename"
+  },
+  "OptionCaptureSaveAsciiFilenameTooltip": {
+    "message": "The captured file will have non-ASCII chars in the filename encoded."
+  },
+  "OptionCaptureSaveDataUriAsFileLabel": {
+    "message": "Save data URL as file"
+  },
+  "OptionCaptureSaveDataUriAsFileTooltip": {
+    "message": "A filename will be auto-generated according to the MIME type and the SHA-1 hash of the content of the data URL."
+  },
+  "OptionCaptureSaveFileAsHtmlLabel": {
+    "message": "Save file as HTML"
+  },
+  "OptionCaptureSaveFileAsHtmlTooltip": {
+    "message": "Save a browser-viewable non-HTML file as an HTML web page."
+  },
+  "OptionCaptureSaveFilenameLabel": {
+    "message": "Filename to save:"
+  },
+  "OptionCaptureSaveFilenameMaxLenUtf16Label": {
+    "message": "Max length for filename to save (UTF-16 bytes):"
+  },
+  "OptionCaptureSaveFilenameMaxLenUtf16Tooltip": {
+    "message": "Truncate a filename whose length exceeds this defined bytes in UTF-16 encoding. \n\n• Windows usually uses UTF-16 for filename encoding and has a restriction of max file path length of 255 bytes."
+  },
+  "OptionCaptureSaveFilenameMaxLenUtf8Label": {
+    "message": "Max length for filename to save (UTF-8 bytes):"
+  },
+  "OptionCaptureSaveFilenameMaxLenUtf8Tooltip": {
+    "message": "Truncate a filename whose length exceeds this defined bytes in UTF-16 encoding. \n\n• Linux usually uses UTF-8 for filename encoding and has a restriction of max filename length of 255 bytes and max file path length of 4096 bytes."
+  },
+  "OptionCaptureSaveFilenameTooltip": {
+    "message": "This determines the filename (excluding the extension) when saving a capture. A slash “/” can be used to specify a subfolder, e.g. “%create-Y%/%create-m%/%title%”.\n\nFollowing “%<param>%” template syntaxes are available:\n• %% - a literal “%”.\n• %id% - the unique identifier of the capture, e.g. “20190301124533216”.\n• %id-legacy% - the unique identifier using legacy ScrapBook format, e.g. “20190301204533”.\n• %uuid% - generates a random UUID, e.g. “941e4674-d6c7-4709-9703-a1b4359286c6”.\n• %title% - page title, or the last URL segment.\n• %source% - URL of the source.\n• %source-host% - domain name of the source, e.g. “example.com”.\n• %source-file% - filename of the source, usually the last URL segment.\n• %source-page% - page name of the source, usually the last URL segment with extension removed.\n• %create% - create time.\n\nThe <param> of %create% can be suffixed with “-<time_format>” to specify a time format (using POSIX strftime format), and the <time_format> can be suffixed with “-utc” to use UTC time. For example, “%create-F-utc%” outputs something like “2020-04-01”.\n\nBelow is a list of some frequently used POSIX strftime formats:\n• Y: year with 4 digits\n• y: year with 2 digits\n• m: month with 2 digits (01 to 12)\n• d: date of month with 2 digits (01 to 31)\n• H: hours with 2 digits (00 to 23)\n• M: minutes with 2 digits (00 to 59)\n• S: seconds with 2 digits (00 to 59)\n• F: date (YYYY-MM-DD)\n• T: time (HH:MM:SS)"
+  },
+  "OptionCaptureSaveResourcesSequentiallyLabel": {
+    "message": "Save resources sequentially"
+  },
+  "OptionCaptureSaveResourcesSequentiallyTooltip": {
+    "message": "When checked, resource files are saved in documet order one by one. This reduces CPU and memory usage and ensures files with identical name are numbered in order, but runs slower."
+  },
+  "OptionCaptureSaveToFileLabel": {
+    "message": "File"
+  },
+  "OptionCaptureSaveToFolderLabel": {
+    "message": "Scrapbook folder"
+  },
+  "OptionCaptureSaveToLabel": {
+    "message": "Save captured data to:"
+  },
+  "OptionCaptureSaveToServerLabel": {
+    "message": "Backend server"
+  },
+  "OptionCaptureSaveToTooltip": {
+    "message": "This determines how captured data files are managed.\n\n• Backend server: save the captured web page in the configured data directory of a book in the backend server.\n• Scrapbook folder: save the captured web page in the scrapbook folder under the <default download folder>.\n• File: save the captured web page as a file."
+  },
+  "OptionCaptureScrapbookFolderLabel": {
+    "message": "Scrapbook folder:"
+  },
+  "OptionCaptureScrapbookFolderTooltip": {
+    "message": "The top-level folder scrapbook data are saved in. This is a path under the <default download folder>, such as “WebScrapBook/data”.\n\n• Browser extensions are restricted to download only to the <default download folder>. To specify a folder beyond it, create a symbolic link (or junction point in Windows) targeting to the desired folder under <default download folder>."
+  },
+  "OptionCaptureScriptLabel": {
+    "message": "Scripts:"
+  },
+  "OptionCaptureScriptTooltip": {
+    "message": "This determines how all scripts (including SCRIPT elements, links with javascript: protocol, and dynamic attributes like onclick, etc.) are handled.\n\n• Save: Save the referenced script resource to local. NOTE: The saved script may not run normally and may introduce privacy or security issue as the captured page has left the original server environment and has had partial content rewritten. Besides, saved scripts don't run in the archive page viewer due to a security concern. It is generally recommended to perform a capture source, and set capture options to “save”, “canvas” to “save initial status”, “form status” to “reset”, “shadow DOMs” to “remove”, “remove hidden elements” to “disable”, and “rewrite styles” to non-“advanced tidy”, to reduce the chance of a conflict with the script.\n• Link: Link the script to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the script.\n• Remove: Remove the script element."
+  },
+  "OptionCaptureShadowDomLabel": {
+    "message": "Shadow DOMs:"
+  },
+  "OptionCaptureShadowDomTooltip": {
+    "message": "This determines how shadow DOMs are handled. A shadow DOM is another set of DOM attached to an element in the page by scripts.\n\n• Save: Record shadow DOMs in a special attribute and create an initialization script to re-generate it on loading.\n• Remove: Do not record shadow DOMs."
+  },
+  "OptionCaptureStyleLabel": {
+    "message": "Styles:"
+  },
+  "OptionCaptureStyleTooltip": {
+    "message": "This determines how stylesheets (including external – some LINK elements – and internal – STYLE elements) are handled.\n\n• Save: Save the referenced external stylesheet resource to local.\n• Link: Link the external stylesheet to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the stylesheet.\n• Remove: Remove the stylesheet element."
+  },
+  "OptionCaptureVideoLabel": {
+    "message": "Videos:"
+  },
+  "OptionCaptureVideoTooltip": {
+    "message": "This determines how video elements are handled.\n\n• Save: Save the referenced video resource to local.\n• Save current: Save the playing video resource to local and ignore alternatives for other browsers. This considerably reduces size but the video may be unplayable on another platform. If the captured page is not displayed in the browser (such as capture source), all video resources are saved.\n• Link: Link the video to its source URL. Note that a network flow will be triggered when browsing the captured document in the future.\n• Blank: Disable the video.\n• Remove: Remove the video element. Note that this could alter the web page layout."
+  },
+  "OptionCheckerMakeBackupLabel": {
+    "message": "Backup changed files"
+  },
+  "OptionCheckerResolveAbsoluteIconLabel": {
+    "message": "Automatically cache icons with absolute URL"
+  },
+  "OptionCheckerResolveInvalidIdLabel": {
+    "message": "Automatically remove items with invalid ID"
+  },
+  "OptionCheckerResolveMissingDateLabel": {
+    "message": "Automatically fix items with missing create or modify time"
+  },
+  "OptionCheckerResolveMissingIndexFileLabel": {
+    "message": "Automatically remove items with missing index file"
+  },
+  "OptionCheckerResolveMissingIndexLabel": {
+    "message": "Automatically remove items with missing index property"
+  },
+  "OptionCheckerResolveOlderMtimeLabel": {
+    "message": "Automatically update item modify time if index file has newer last modified time"
+  },
+  "OptionCheckerResolveTocEmptySubtreeLabel": {
+    "message": "Automatically remove empty sub lists from TOC"
+  },
+  "OptionCheckerResolveTocInvalidLabel": {
+    "message": "Automatically remove invalid items from TOC"
+  },
+  "OptionCheckerResolveTocUnreachableLabel": {
+    "message": "Automatically add items unreachable from TOC"
+  },
+  "OptionCheckerResolveUnindexedFilesLabel": {
+    "message": "Automatically generate metadata for detected new pages and add them to root TOC"
+  },
+  "OptionCheckerResolveUnusedIconLabel": {
+    "message": "Automatically remove unused favicon cache"
+  },
+  "OptionEditorAutoInit": {
+    "message": "Automatically load editor toolbar when visiting a page in the scrapbook"
+  },
+  "OptionEditorInsertDateFormatLabel": {
+    "message": "Insert date format:"
+  },
+  "OptionEditorInsertDateFormatTooltip": {
+    "message": "The inserted date is the current local time, using POSIX strftime format.\n\nBelow is a short list of frequently used formats:\n• %c: local datetime\n• %x: locate date\n• %Y: year with 4 digits\n• %y: year with 2 digits\n• %m: month with 2 digits (01 to 12)\n• %B: local full month name\n• %b: local abbreviated month name\n• %d: date of month with 2 digits (01 to 31)\n• %A: local full weekday name\n• %a: local abbreviated weekday name\n• %X: local time\n• %H: hour (24-hour clock) with 2 digits (00 to 23)\n• %I: hour (24-hour clock) with 2 digits (00 to 12)\n• %p: AM or PM\n• %M: minute with 2 digits (00 to 59)\n• %S: second with 2 digits (00 to 59)\n• %z: local timezone offset\n• %Z: local timezone name\n• %%: % sign"
+  },
+  "OptionEditorLineMarkerStyleLabel": {
+    "message": "Marker style"
+  },
+  "OptionEditorUseNativeTagsLabel": {
+    "message": "Use native HTML tags for markings"
+  },
+  "OptionEditorUseNativeTagsTooltip": {
+    "message": "Use native HTML tags for markings to be compatible with old browsers (e.g. IE < 9), but are more likely to be intefered by the original web page and results in an abnormal style."
+  },
+  "OptionGroupAutocapture": {
+    "message": "Auto-capture"
+  },
+  "OptionGroupCapture": {
+    "message": "Capture - content"
+  },
+  "OptionGroupChecker": {
+    "message": "Backend server - Checker"
+  },
+  "OptionGroupDownLink": {
+    "message": "Capture - capture links"
+  },
+  "OptionGroupEditor": {
+    "message": "Editor"
+  },
+  "OptionGroupHelpers": {
+    "message": "Capture - Capture Helpers"
+  },
+  "OptionGroupIndexer": {
+    "message": "Backend server - Indexer"
+  },
+  "OptionGroupSave": {
+    "message": "Capture - saving"
+  },
+  "OptionGroupScrapbook": {
+    "message": "Backend server - Scrapbook"
+  },
+  "OptionGroupServer": {
+    "message": "Backend server"
+  },
+  "OptionGroupUi": {
+    "message": "User interface"
+  },
+  "OptionGroupViewer": {
+    "message": "Viewer"
+  },
+  "OptionIndexerCreateRssFeedBaseLabel": {
+    "message": "Root URL of RSS feed:"
+  },
+  "OptionIndexerCreateRssFeedBaseTooltip": {
+    "message": "The address of an RSS feed must be an absolute URL. Generally this field can be left blank, and the URL of the backend server will be automatically used. If the static site is to be distributed on another server, the root URL path of the scrapbook (which looks like “https://example.com/wsb/”) must be provided explicitly here."
+  },
+  "OptionIndexerCreateRssFeedCountLabel": {
+    "message": "RSS item number:"
+  },
+  "OptionIndexerCreateRssFeedLabel": {
+    "message": "Generate RSS feed (feed.atom)"
+  },
+  "OptionIndexerCreateRssFeedTooltip": {
+    "message": "The RSS feed lists recently modified data items, to inform the subscribers about recent updates."
+  },
+  "OptionIndexerCreateStaticIndexLabel": {
+    "message": "Generate static index page (index.html)"
+  },
+  "OptionIndexerCreateStaticIndexTooltip": {
+    "message": "The static index page provides a static list of data items, for the search engine to index and for a client not supporting JavaScript to browse. This page is loads slower than map.html, though."
+  },
+  "OptionIndexerCreateStaticSiteLabel": {
+    "message": "Generate static site pages"
+  },
+  "OptionIndexerFulltextCacheFrameAsPageContentLabel": {
+    "message": "Cache frame content as main document content"
+  },
+  "OptionIndexerFulltextCacheLabel": {
+    "message": "Generate fulltext cache"
+  },
+  "OptionIndexerFulltextCacheRecreateLabel": {
+    "message": "Recreate fulltext cache"
+  },
+  "OptionIndexerMakeBackupLabel": {
+    "message": "Backup changed files"
+  },
+  "OptionPageTitle": {
+    "message": "Options"
+  },
+  "OptionScrapbookBackupForRecaptureLabel": {
+    "message": "Backup when capturing again"
+  },
+  "OptionScrapbookBackupForRecaptureTooltip": {
+    "message": "Data files of the original capture will be moved to the backup directory configured by the backend server after the capture is done successfully. Uncheck to delete instead of moving to backup directory instead.\n\n• NOTE: Annotations in the original captured page are automatically migrated to the new capture. However, it's possible that some annotations cannot be auto-migrated or even not detected at all, and thus it's generally recommended to leave a backup in case something goes wrong."
+  },
+  "OptionScrapbookCopyItemInfoFormatPlainLabel": {
+    "message": "Copy info format:"
+  },
+  "OptionScrapbookCopyItemInfoFormatPlainTooltip": {
+    "message": "This determines the format of copy info.\n\nFollowing “%<param>%” template syntaxes are available:\n• %% - a literal “%”.\n• %id% - item ID.\n• %title% - item title.\n• %comment% - item comment.\n• %source% - item source URL.\n• %url% - item URL.\n• %create-#% - item create time.\n• %modify-#% - item modify time.\n\nThe <param> of %create% and %modify% can be suffixed with “-<time_format>” to specify a time format (using POSIX strftime format), and the <time_format> can be suffixed with “-utc” to use UTC time. For example, “%create-F-utc%” outputs something like “2020-04-01”.\n\nBelow is a list of some frequently used POSIX strftime formats:\n• Y: year with 4 digits\n• y: year with 2 digits\n• m: month with 2 digits (01 to 12)\n• d: date of month with 2 digits (01 to 31)\n• H: hours with 2 digits (00 to 23)\n• M: minutes with 2 digits (00 to 59)\n• S: seconds with 2 digits (00 to 59)\n• F: date (YYYY-MM-DD)\n• T: time (HH:MM:SS)\n\nThe <param> may be suffixed with one or more “:<format>”s to transform the output, such as “%title:oneline:escape_html%”. Available values for the <format> are:\n• oneline: Truncate linefeed and following chars .\n• collapse: Collapse ASCII whitespace chars .\n• url: Escape special chars of URL.\n• escape_html: Escape special chars of HTML, including “<”, “&”, “>”, and “\"”.\n• escape_html_space: Escape special chars of HTML, and convert continuous white spaces into “&nbsp;”s.\n• escape_css: Escape special chars of CSS.\n• json: Convert to a JSON string."
+  },
+  "OptionScrapbookDefaultSearchLabel": {
+    "message": "Default search condition:"
+  },
+  "OptionScrapbookDefaultSearchTooltip": {
+    "message": "The prefilled search condition. For example, setting this to “-type:separator” makes “keyword” in the search field mean searching “-type:separator keyword”.\n\n• Besides general search commands, “default:” can be used to set the default command. For example, setting this to “default:title” makes “keyword” in the search field mean searching “title:keyword”. (defaults to default:tcc)"
+  },
+  "OptionScrapbookFulltextCacheRemoteSizeLimitLabel": {
+    "message": "Size limit for remote fulltext cache (MiB):"
+  },
+  "OptionScrapbookScrapbookSearchCommentLengthLabel": {
+    "message": "Comment length shown in search results:"
+  },
+  "OptionScrapbookScrapbookSearchContextLengthLabel": {
+    "message": "Context length shown in search results:"
+  },
+  "OptionScrapbookScrapbookSearchSourceLengthLabel": {
+    "message": "Source length shown in search results:"
+  },
+  "OptionScrapbookSidebarEditNoteInNewTabLabel": {
+    "message": "Edit note"
+  },
+  "OptionScrapbookSidebarEditPostitInNewTabLabel": {
+    "message": "Edit post-it"
+  },
+  "OptionScrapbookSidebarInNewTabLabel": {
+    "message": "Open new tab for sidebar operations:"
+  },
+  "OptionScrapbookSidebarOpenInNewTabLabel": {
+    "message": "Open"
+  },
+  "OptionScrapbookSidebarSearchInNewTabLabel": {
+    "message": "Search"
+  },
+  "OptionScrapbookSidebarSourceInNewTabLabel": {
+    "message": "View source"
+  },
+  "OptionScrapbookSidebarViewTextInNewTabLabel": {
+    "message": "View text"
+  },
+  "OptionServerPasswordLabel": {
+    "message": "Password:"
+  },
+  "OptionServerPasswordTooltip": {
+    "message": "If the backend server is configured to require HTTP authorization, the password can be provided here to prevent being asked for repeatedly.\n\n• NOTE: Credentials stored in a browser extension is unprotected and could be stolen by a skilled attacker. Using password-protected built-in browser password manager is generally more preferable."
+  },
+  "OptionServerUrlLabel": {
+    "message": "Address:"
+  },
+  "OptionServerUrlTooltip": {
+    "message": "The root URL path (which must ends with “/”) of the backend server application, such as “http://localhost:8080/” or “https://example.com/wsb/”.\n\n• The backend server can be hosted using PyWebScrapBook (minimal compatible version: $BACKEND_VERSION$). See https://pypi.org/project/webscrapbook/ for further details.\n• The default address of a local PyWebScrapBook backend server is “http://localhost:8080/”.",
+    "placeholders": {
+      "backend_version": {
+        "content": "$1"
+      }
+    }
+  },
+  "OptionServerUserLabel": {
+    "message": "User:"
+  },
+  "OptionServerUserTooltip": {
+    "message": "If the backend server is configured to require HTTP authorization, the user name can be provided here to prevent being asked for repeatedly.\n\n• NOTE: Credentials stored in a browser extension is unprotected and could be stolen by a skilled attacker. Using password-protected built-in browser password manager is generally more preferable."
+  },
+  "OptionUiAutoCloseCaptureDialogAlwaysLabel": {
+    "message": "Always"
+  },
+  "OptionUiAutoCloseCaptureDialogLabel": {
+    "message": "Auto-close dialog on capture complete:"
+  },
+  "OptionUiAutoCloseCaptureDialogNoErrorLabel": {
+    "message": "If no error or failure"
+  },
+  "OptionUiAutoCloseCaptureDialogNoFailureLabel": {
+    "message": "If no failure"
+  },
+  "OptionUiAutoCloseCaptureDialogNoWarnLabel": {
+    "message": "If no warning, error, or failure"
+  },
+  "OptionUiAutoCloseCaptureDialogNoneLabel": {
+    "message": "Disable"
+  },
+  "OptionUiNotifyPageCapturedLabel": {
+    "message": "Show hint when browsing a page having been captured"
+  },
+  "OptionUiNotifyPageCapturedTooltip": {
+    "message": "When checked, a badge number of matching items will be shown at the toolbar button, with different color for the matching level: \n• red: same URL (excluding the #-part)\n• yellow: same path (excluding the ?- and #-part)\n• green: same site (same protocol, domain, and port)\n• blue: same domain (e.g. https: and http: or www.example.com and example.com are considered same)\n• gray: same URL captured during the current browser session"
+  },
+  "OptionUiShowContextMenuLabel": {
+    "message": "Enable context menu"
+  },
+  "OptionUiToolbarButtonsLabel": {
+    "message": "Show toolbar button commands:"
+  },
+  "OptionViewerViewAttachmentsLabel": {
+    "message": "Force open attachments"
+  },
+  "OptionViewerViewAttachmentsTooltip": {
+    "message": "Attachments (files with “Content-Disposition: attachment” HTTP header) are normally downloaded directly without an attempt to open by the browser. Check this option to force opening archive page files that are attachments using the archive page viewer."
+  },
+  "OptionViewerViewHtzLabel": {
+    "message": "View HTZ file"
+  },
+  "OptionViewerViewHtzTooltip": {
+    "message": "When the browser loads an HTZ file, view it with the viewer. Check “Allow access to file URLs” in a supported browser to enable opening such files directly."
+  },
+  "OptionViewerViewMaffLabel": {
+    "message": "View MAFF file"
+  },
+  "OptionViewerViewMaffTooltip": {
+    "message": "When the browser loads a MAFF file, view it with the viewer. Check “Allow access to file URLs” in a supported browser to enable opening such files directly."
+  },
+  "OptionsExportLabel": {
+    "message": "Export"
+  },
+  "OptionsImportLabel": {
+    "message": "Import"
+  },
+  "OptionsImportSuccess": {
+    "message": "Successfully imported options."
+  },
+  "OptionsResetLabel": {
+    "message": "Reset"
+  },
+  "OptionsSaveLabel": {
+    "message": "Save"
+  },
+  "ScrapBookCommandBrowse": {
+    "message": "Browse locally"
+  },
+  "ScrapBookCommandCopyDialogAdvanced": {
+    "message": "Advanced:"
+  },
+  "ScrapBookCommandCopyDialogBook": {
+    "message": "Copy to scrapbook:"
+  },
+  "ScrapBookCommandCopyDialogIndex": {
+    "message": "Position (start from 0, empty for last):"
+  },
+  "ScrapBookCommandCopyDialogRecursive": {
+    "message": "Also copy descendants"
+  },
+  "ScrapBookCommandCopyDialogRoot": {
+    "message": "Copy into the item of this ID:"
+  },
+  "ScrapBookCommandCopyInfo": {
+    "message": "Copy info"
+  },
+  "ScrapBookCommandCopyTo": {
+    "message": "Copy to"
+  },
+  "ScrapBookCommandCreateFolder": {
+    "message": "New folder"
+  },
+  "ScrapBookCommandCreateNote": {
+    "message": "New Note"
+  },
+  "ScrapBookCommandCreateNoteDialogTitle": {
+    "message": "Format of the new note:"
+  },
+  "ScrapBookCommandCreatePostit": {
+    "message": "New post-it"
+  },
+  "ScrapBookCommandCreateSeparator": {
+    "message": "New separator"
+  },
+  "ScrapBookCommandDelete": {
+    "message": "Delete"
+  },
+  "ScrapBookCommandEdit": {
+    "message": "Edit"
+  },
+  "ScrapBookCommandExec": {
+    "message": "Open locally"
+  },
+  "ScrapBookCommandExecBook": {
+    "message": "View root directory locally"
+  },
+  "ScrapBookCommandIndex": {
+    "message": "View index page"
+  },
+  "ScrapBookCommandManage": {
+    "message": "Manage"
+  },
+  "ScrapBookCommandMeta": {
+    "message": "Metadata"
+  },
+  "ScrapBookCommandMetaDialogCharset": {
+    "message": "Charset:"
+  },
+  "ScrapBookCommandMetaDialogComment": {
+    "message": "Comment:"
+  },
+  "ScrapBookCommandMetaDialogCreate": {
+    "message": "Created:"
+  },
+  "ScrapBookCommandMetaDialogIcon": {
+    "message": "Icon:"
+  },
+  "ScrapBookCommandMetaDialogId": {
+    "message": "ID:"
+  },
+  "ScrapBookCommandMetaDialogIndex": {
+    "message": "Index:"
+  },
+  "ScrapBookCommandMetaDialogLocation": {
+    "message": "Geolocation:"
+  },
+  "ScrapBookCommandMetaDialogLocked": {
+    "message": "Locked:"
+  },
+  "ScrapBookCommandMetaDialogMarked": {
+    "message": "Marked:"
+  },
+  "ScrapBookCommandMetaDialogModify": {
+    "message": "Modified:"
+  },
+  "ScrapBookCommandMetaDialogParent": {
+    "message": "Recycled from:"
+  },
+  "ScrapBookCommandMetaDialogRecycled": {
+    "message": "Recycled:"
+  },
+  "ScrapBookCommandMetaDialogSource": {
+    "message": "Source:"
+  },
+  "ScrapBookCommandMetaDialogTitle": {
+    "message": "Title:"
+  },
+  "ScrapBookCommandMetaDialogType": {
+    "message": "Type:"
+  },
+  "ScrapBookCommandMoveDialogId": {
+    "message": "Move into the item of this ID:"
+  },
+  "ScrapBookCommandMoveDialogIndex": {
+    "message": "Position (start from 0, empty for last):"
+  },
+  "ScrapBookCommandMoveDialogMode": {
+    "message": "Mode:"
+  },
+  "ScrapBookCommandMoveDialogModeLink": {
+    "message": "Link"
+  },
+  "ScrapBookCommandMoveDialogModeMove": {
+    "message": "Move"
+  },
+  "ScrapBookCommandMoveDown": {
+    "message": "Move down"
+  },
+  "ScrapBookCommandMoveTo": {
+    "message": "Move to"
+  },
+  "ScrapBookCommandMoveUp": {
+    "message": "Move up"
+  },
+  "ScrapBookCommandOpenTab": {
+    "message": "Open in new tab"
+  },
+  "ScrapBookCommandRecapture": {
+    "message": "Capture again"
+  },
+  "ScrapBookCommandRecover": {
+    "message": "Recover"
+  },
+  "ScrapBookCommandRecycle": {
+    "message": "Remove"
+  },
+  "ScrapBookCommandSearch": {
+    "message": "Search"
+  },
+  "ScrapBookCommandSearchIn": {
+    "message": "Search within"
+  },
+  "ScrapBookCommandSort": {
+    "message": "Sort"
+  },
+  "ScrapBookCommandSortDialogAdvanced": {
+    "message": "Advanced:"
+  },
+  "ScrapBookCommandSortDialogDirection": {
+    "message": "Direction:"
+  },
+  "ScrapBookCommandSortDialogDirectionAsc": {
+    "message": "Ascending"
+  },
+  "ScrapBookCommandSortDialogDirectionDesc": {
+    "message": "Descending"
+  },
+  "ScrapBookCommandSortDialogKey": {
+    "message": "Sort by:"
+  },
+  "ScrapBookCommandSortDialogKeyCreate": {
+    "message": "Created"
+  },
+  "ScrapBookCommandSortDialogKeyId": {
+    "message": "ID"
+  },
+  "ScrapBookCommandSortDialogKeyIndex": {
+    "message": "Index"
+  },
+  "ScrapBookCommandSortDialogKeyMarked": {
+    "message": "Marked"
+  },
+  "ScrapBookCommandSortDialogKeyModify": {
+    "message": "Modified"
+  },
+  "ScrapBookCommandSortDialogKeyReverse": {
+    "message": "Reverse"
+  },
+  "ScrapBookCommandSortDialogKeySource": {
+    "message": "Source"
+  },
+  "ScrapBookCommandSortDialogKeyTitle": {
+    "message": "Title"
+  },
+  "ScrapBookCommandSortDialogKeyType": {
+    "message": "Type"
+  },
+  "ScrapBookCommandSortDialogRecursive": {
+    "message": "Also sort descendants"
+  },
+  "ScrapBookCommandSource": {
+    "message": "View source"
+  },
+  "ScrapBookCommandUpload": {
+    "message": "Upload"
+  },
+  "ScrapBookCommandViewRecycle": {
+    "message": "View recycle bin"
+  },
+  "ScrapBookCommandViewText": {
+    "message": "View text"
+  },
+  "ScrapBookErrorBookNotExist": {
+    "message": "Scrapbook $NAME$ does not exist. Reset to default scrapbook.",
+    "placeholders": {
+      "name": {
+        "content": "$1"
+      }
+    }
+  },
+  "ScrapBookErrorInitTree": {
+    "message": "Unable to init tree: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "ScrapBookErrorServerInit": {
+    "message": "Backend initilization error: $REASON$",
+    "placeholders": {
+      "reason": {
+        "content": "$1"
+      }
+    }
+  },
+  "ScrapBookErrorServerNotConfigured": {
+    "message": "Backend server is not configured."
+  },
+  "ScrapBookErrorServerTreeChanged": {
+    "message": "Tree data in the server has been changed. Refresh the page and try again."
+  },
+  "ScrapBookErrorSourceTreeOutdated": {
+    "message": "Tree data of the source page is outdated. Refresh that page and try again."
+  },
+  "ScrapBookNewFolderName": {
+    "description": "Default name of a new folder",
+    "message": "New Folder"
+  },
+  "ScrapBookNewNoteName": {
+    "description": "Default name of a new note",
+    "message": "New Note"
+  },
+  "ScrapBookNoTree": {
+    "message": "This scrapbook is configured to work without an index tree. Visit the index page using the “View index page” command. Manage data using the file manager or the web interface of the backend server."
+  },
+  "SearchCaptures": {
+    "message": "View captured pages"
+  },
+  "SearchCapturesFoundFull": {
+    "message": "Same URL:"
+  },
+  "SearchCapturesFoundOrigin": {
+    "message": "Same web site:"
+  },
+  "SearchCapturesFoundPath": {
+    "message": "Same web site path:"
+  },
+  "SearchCapturesFoundSimilar": {
+    "message": "Same domain:"
+  },
+  "SearchCapturesNotFound": {
+    "message": "No match found"
+  },
+  "SearchCapturesTitle": {
+    "message": "Find captured pages"
+  },
+  "SearchFound": {
+    "message": "[$BOOK$] Found $RESULTS$ results:",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      },
+      "results": {
+        "content": "$2"
+      }
+    }
+  },
+  "SearchHelpDesc": {
+    "message": "• Input keywords search from title, content, or comment.\n• Use space to separate multiple keywords. For example, “w3c organization” means items containing “w3c” and “organization”.\n• Use double quotes to demark a complete phrase, a literal double quote can be escaped by doubling. For example, “\"Tom \"\"loves\"\" Mary.\"” means items containing “Tom \"loves\" Mary.”\n• Use minus sign to exclude a keyword. For example, “-virus” means items without “virus”.\n• Use “<command>:<keyword>” to specify a special search condition. A minus sign can be prefixed for exclusion or reversion. Available commands include:\n  • mc: each subsequent keyword matches case-sensitively. For example, “mc: CIA FBI -mc: president” means items containing “CIA” and “FBI” case-sensitively, and “president” case-insensitively.\n  • re: each subsequent keyword is treated as a regular expression. For example, “re: \\bcolou?r\\b -re: 1+1=2” means items that match regular expression “\\bcolou?r\\b” and contain keyword “1+1=2”.\n  • id: item whose ID equal to the keyword (or match the regular expression). Multiple values are “or”-connected. For example, “id:2020 id:2021” means items of ID “2020” or “2021”; “-id:2020” means items whose ID is not “2020”.\n  • type: items whose type equal to the keyword (or match the regular expression). Multiple values are “or”-connected. Available types are “” (page), “bookmark”, “file”, “note”, etc. For example, “type: type:bookmark” means items whose type is page or bookmark.\n  • title: items whose title contains the keyword.\n  • content: items whose fulltext contains the keyword.\n  • comment: items whose comment contains the keyword.\n  • tc: items whose title or comment contains the keyword.\n  • tcc: items whose title, fulltext, or comment contains the keyword.\n  • index: items whose index file path contains the keyword.\n  • source: items whose source URL contains the keyword.\n  • icon: items whose icon URL contains the keyword.\n  • charset: items whose charset contains the keyword.\n  • create: items whose create time matches the condition. The time condition is an interval with 0-17 digits, followed by a minus sign optionally, and then followed by 0-17 digits. The two 17-digit numbers means the year (4 digits), month (01-12), day (01-31), hours (00-59), minutes (00-59), seconds (00-59), and milliseconds (000-999) in local datetime. Each omitted digit is assumed to be a “0”, except that “999...” is assumed if the end datetime is totally omitted. For example, “create:2014-2015” means since 2014 until 2015; “create:-201309” means before Sep 2013; and “create:20110825” means after Aug 25, 2011.\n  • modify: items whose modify time matches the condition. Time format is same as create.\n  • marked: marked items.\n  • locked: locked items.\n  • location: items with geolocation information.\n  • file: items whose filename contains the keyword.\n  • root: items under the item of ID. Multiple values are “or”-connected. For example, use “root:recycle” to search within the recycle bin.\n  • book: items in the specific scrapbook (by name). Multiple values are “or”-connected.\n  • sort: sort search results using the specific condition, which can be id, title, comment, file, content, source, type, create, or modify. For example, “sort:id -sort:modify” means sorting by ID in acending order and then sorting by modify time in descending order.\n  • limit: set a limit on the search result number. For example, “limit:10” means showing the first 10 results, “limit:-20” means removing the last 20 results, and “limit:0” or “-limit:” means unsetting the limit."
+  },
+  "SearchHelpSummary": {
+    "message": "Search syntax help"
+  },
+  "SearchLocateTitle": {
+    "message": "Locate this item in scrapbook"
+  },
+  "SearchSortId": {
+    "message": "Sort by ID"
+  },
+  "SearchSortLastCreated": {
+    "message": "Last created"
+  },
+  "SearchSortLastModified": {
+    "message": "Last modified"
+  },
+  "SearchSortTitle": {
+    "message": "Sort by title"
+  },
+  "SearchTitle": {
+    "message": "Search $BOOK$",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      }
+    }
+  },
+  "SearchTitleWithRoot": {
+    "message": "Search $BOOK$ :: $ROOT$",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      },
+      "root": {
+        "content": "$2"
+      }
+    }
+  },
+  "SidebarTitle": {
+    "message": "$BOOK$ | $APP$",
+    "placeholders": {
+      "app": {
+        "content": "$1"
+      },
+      "book": {
+        "content": "$2"
+      }
+    }
+  },
+  "SidebarTitleWithRoot": {
+    "message": "$BOOK$ :: $ROOT$ | $APP$",
+    "placeholders": {
+      "app": {
+        "content": "$1"
+      },
+      "book": {
+        "content": "$2"
+      },
+      "root": {
+        "content": "$3"
+      }
+    }
+  },
+  "ViewerDesc": {
+    "message": "Pick HTZ or MAFF archive files to open, via dropping them into this window, or using the buttons below:"
+  },
+  "ViewerPickFiles": {
+    "message": "Pick ZIP files"
+  },
+  "ViewerTitle": {
+    "message": "View archive page"
+  },
+  "WarnCaptureCircular": {
+    "message": "Resource '$SOURCE$' has a circular reference to '$TARGET$', which will be blanked because current capture configuration does not support circular reference.",
+    "placeholders": {
+      "source": {
+        "content": "$1"
+      },
+      "target": {
+        "content": "$2"
+      }
+    }
+  },
+  "WarnSearchCacheBlocked": {
+    "message": "Skipped loading remote fulltext cache for book “$BOOK$” due to exceeding size limit (totally $SIZE$).",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      },
+      "size": {
+        "content": "$2"
+      }
+    }
+  },
+  "WarnSearchCacheMissing": {
+    "message": "Scrapbook “$BOOK$” doesn't have a fulltext cache. Click me to build one and then refresh this page.",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      }
+    }
+  },
+  "WarnSearchCacheOutdated": {
+    "message": "Scrapbook “$BOOK$” seems to have an outdated fulltext cache. Click me to update it and then refresh this page.",
+    "placeholders": {
+      "book": {
+        "content": "$1"
+      }
+    }
+  },
+  "WarnSidebarLoginPromptMissing": {
+    "message": "Click me to login and refresh this page if the browser doesn't prompt for login."
+  }
+}
