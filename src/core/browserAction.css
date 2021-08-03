@@ -1,0 +1,44 @@
+button {
+  display: block;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 1px 3px;
+  width: 100%;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+button:enabled:focus {
+  outline: 2px solid rgba(130, 126, 207, 1);
+  background: linear-gradient(rgba(235, 235, 252, 1), rgba(244, 235, 252, 1));
+}
+
+button:enabled:hover {
+  background-color: rgba(130, 126, 207, 1);
+}
+
+button:enabled:active {
+  background-image: radial-gradient(rgba(214, 123, 221, 0.95), rgba(130, 126, 207, 1));
+  color: #FFFFFF;
+}
+
+button:disabled {
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+button[hidden] {
+  display: none;
+}
+
+.sub {
+  color: voilet;
+  text-decoration: underline;
+}
+
+.dragged-within #wrapper {
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
